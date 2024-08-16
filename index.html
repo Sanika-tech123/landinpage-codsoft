@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartFitness - The best fitness gym in the town!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="timer.js"></script>
+    <link rel="stylesheet" href="utils.css">
+</head>
+
+<body class='overflow-x-hidden'>
+    <div class="container mx-auto">
+        <header>
+            <nav class="flex justify-between">
+                <div class="logo font-bold flex items-center text-blue">SMART FITNESS</div>
+                <ul class="navbar flex items-center">
+                    <a href="#">
+                        <button style="background-color: red; border-radius:20%; font-size: 15px; color: aliceblue;">HOME</button>
+                    </a>
+                    <a href="#PRICING">
+                        <button style="background-color: red; border-radius:20%; font-size: 15px; color: aliceblue;">PRICING</button>
+                    </a>
+                    <a href="#SERVICES">
+                        <button style="background-color: red; border-radius:20%; font-size: 15px; color: aliceblue;">SERVICES</button>
+                    </a>
+                    <a href="#CONTACT">
+                        <button style="background-color: red; border-radius:20%; font-size: 15px; color: aliceblue;">CONTACT-US</button>
+                    </a>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <main class="min-h-screen">
+            <section class="section1">
+                <div class="flex">
+                    <div class="topleft flex flex-col justify-center px-2">
+                        <div class="text-center">
+                            <img class="dumbellimg" src="dumbell.png" alt="">
+                        </div>
+                        <h1 class="my-1 text-center">THE BEST FITNESS GYM IN THE TOWN IS HERE:-</h1>
+                        <p class="text-center">Achieve Your Fitness Goals with Expert Guidance and State-of-the-Art Equipment.
+                            Transform Your Body and Mind with Cutting-Edge Fitness Programs and World-Class Facilities.</p>
+                            <!-- Display the countdown timer in an element -->
+                            <p class="deal text-center">THE DEAL ENDS IN:- <span id="demo"></span></p>
+                            <div class="buttons">
+                                <a href="#CONTACT">
+                                <button class="btn">Join now</button>
+                                </a>
+                            </div>
+                    </div>
+                    <div class="topright flex justify-center">
+                        <img class="gymimg" src="gym.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="section2" id="PRICING">
+                <h1 class="text-center my-2">PRICING</h1>
+                <p class="my-2">"Join Today and Start Your Journey to a Healthier You!": A call to action that encourages immediate sign-ups</p>
+                <div class="boxes flex justify-center">
+                    <div class="box">
+                        <h2>1 MONTH</h2>
+                        <ul>
+                            <li class="highlighted">Rs.1000</li>
+                            <li>TIME:-5am-7am;6pm-8pm </li>
+                            <li>UNLIMITED ACCESS TO ALL EQUIPMENT AND FACILITIES</li>
+                            <li></li>
+                            <li></li>
+                            <li><a href="#CONTACT"><button class="btn">Signup Now</button></li></a>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>3 MONTHS OFFER</h2>
+                        <ul>
+                            <li class="highlighted">Rs.2500</li>
+                            <li>UNLIMITED ACCESS TO ALL THE EQUIPMENT AND FACILITIES</li>
+                            <li>FREE TRAINER</li>
+                            <li></li>
+                            <li></li>
+                            <li><a href="#CONTACT"><button class="btn">Signup Now</button></li></a>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>6 MONTHS OFFER</h2>
+                        <ul>
+                            <li class="highlighted">Rs.5500</li>
+                            <li>UNLIMITED ACCESS TO ALL THE EQUIPMENT AND FACILITIES</li>
+                            <li>FREE TRAINER</li>
+                            <li>STANDARD LOCKERS, SHOWERS AND RESTROOMS</li>
+                            <li></li>
+                            <li><a href="#CONTACT"><button class="btn">Signup Now</button></li></a>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="section3" id="SERVICES">
+                <h1 class="text-center my-2">Compare Plans</h1>
+                <div class="container plantable">
+                    <table class="table text-center">
+                      <thead>
+                        <tr>
+                          <th></th><th>1 MONTH</th>
+                          <th>3 MONTHS</th>
+                          <th>6 MONTHS</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="text-start">Public</th>
+                          <td>Yes</td>
+                          <td>Yes</td>
+                          <td>Yes</td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Private</th>
+                          <td>-</td>
+                          <td>Yes</td>
+                          <td>Yes</td>
+                        </tr>
+                      </tbody>
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="text-start">Permissions</th>
+                          <td>Yes</td>
+                          <td>Yes</td>
+                          <td>Yes</td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Sharing</th>
+                          <td>-</td>
+                          <td>Yes</td>
+                          <td>Yes</td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Unlimited members</th>
+                          <td>-</td>
+                          <td>Yes</td>
+                          <td>Yes</td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Extra security</th>
+                          <td>-</td>
+                          <td>-</td>
+                          <td>Yes</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                </div>
+            </section>
+            <hr>
+            <section class="contact-section" id="CONTACT">
+                <h1 class="text-center my-2">Contact Us</h1>
+                <div class="contact-info text-center">
+                    <p>If you have any questions or need assistance, feel free to contact us using the details below.</p>
+                    <p><strong>Email:</strong> contact@smartfitness.com</p>
+                    <p><strong>Phone:</strong> +123-456-7890</p>
+                    <p><strong>Address:</strong> 123 Fitness Street, Workout City, Fitland</p>
+                </div>
+                <div class="contact-form text-center">
+                    <h2>Send Us a Message</h2>
+                    <form action="submit_form.php" method="post">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        <br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <br>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                        <br>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </section>
+            <hr>
+        </main>
+        <footer>
+            Copyright &copy; SmartFitness.com | All rights reserved
+        </footer>
+    </div>
+</body>
+
+</html>
